@@ -9,7 +9,7 @@ user_input=input("Guess the number between 1-100\n")
 # number of gusses user takes to gues the number
 guesses=0
 
-# while loop to continuously prompt the user to guess a number until he guesses the right number
+# while loop to continuously prompt the user to guess a number until user guesses the right number
 while user_input!=num:
 
     # try...except statement for error handling if he dosen't enter a valid value
