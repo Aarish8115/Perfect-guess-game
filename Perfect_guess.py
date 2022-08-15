@@ -6,13 +6,13 @@ num=random.randint(1,100)
 # gets a user input (a number but a string)
 user_input=input("Guess the number between 1-100\n")
 
-# number of gusses user takes to gues the number
+# number of gusses user takes to guess the number
 guesses=0
 
 # while loop to continuously prompt the user to guess a number until he guesses the right number
 while user_input!=num:
 
-    # try...except statement for error handling if he dosen't enter a valid value
+    # try...except statement for error handling if user dosen't enter a valid value
     try:
         
         # if the user inputs a valid value then convert it to a int from str
